@@ -1,0 +1,18 @@
+# Archivos de PyInstaller (compilación)
+build/
+dist/
+*.spec
+
+# Archivos generados por la aplicación al ejecutarse
+historial.json
+registro_verificacion.txt
+
+# Entornos virtuales y caché de Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Archivos del sistema operativo (Windows/Mac)
+Thumbs.db
+.DS_Store
