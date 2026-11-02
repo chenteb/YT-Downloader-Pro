@@ -41,7 +41,7 @@ A desktop application developed in Python for Windows that allows you to downloa
    python yt_downloader_pro_v3.3.py
 
 
-📦 Compiling as an Executable (.exe)
+## 📦 Compiling as an Executable (.exe)
 If you want to generate your own Windows executable file:
 
 1. Install PyInstaller:
@@ -54,12 +54,12 @@ If you want to generate your own Windows executable file:
 
 3. The executable will be available in the dist/ folder.
 
-💡 Notes and Known Limitations
-   Empty titles on some platforms: When analyzing certain links (for example, some Facebook Reels or Instagram videos), the platform might not expose the title tag. In these cases, the app will display "(sin título)" [no title] in the interface, but this is not a problem: you can manually type your desired name in the "Name" field before downloading, and the application will respect it perfectly.
+## 💡 Notes and Known Limitations
+   - **Empty titles on some platforms:** When analyzing certain links (for example, some Facebook Reels or Instagram videos), the platform might not expose the title tag. In these cases, the app will display "(sin título)" [no title] in the interface, but this is not a problem: you can manually type your desired name in the "Name" field before downloading, and the application will respect it perfectly.
 
-   DRM-protected sites: Paid streaming platforms like Netflix, Disney+, or Hulu use DRM protection. This tool cannot download from those sites.
+   - **DRM-protected sites:** Paid streaming platforms like Netflix, Disney+, or Hulu use DRM protection. This tool cannot download from those sites.
 
-   Platform updates: If a website suddenly stops working, it's likely because they changed their code. Updating yt-dlp (pip install -U yt-dlp) usually fixes the issue.
+   - **Platform updates:** If a website suddenly stops working, it's likely because they changed their code. Updating yt-dlp (pip install -U yt-dlp) usually fixes the issue.
 
-⚠️ Legal Disclaimer
+## ⚠️ Legal Disclaimer
    This tool is intended for educational purposes and for downloading your own or public domain content. The user is responsible for complying with the Terms of Service of the platforms (such as YouTube) and the copyright laws of their country. The developer is not responsible for any misuse of this software.

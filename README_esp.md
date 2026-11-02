@@ -34,32 +34,32 @@ Una aplicación de escritorio desarrollada en Python para Windows que permite de
    cd YT-Downloader-Pro
 
 2. Instala las dependencias:
-   bash
+   ```bash
    pip install -r requirements.txt
 
 3. Ejecuta la aplicación:
-   bash
+   ```bash
    python yt_downloader_pro_v3.3.py
 
-📦 Compilar como ejecutable (.exe)
+## 📦 Compilar como ejecutable (.exe)
 Si deseas generar tu propio archivo ejecutable de Windows:
 
 1. Instala PyInstaller:
-   bash
+   ```bash
    pip install pyinstaller
 
 2. Ejecuta el siguiente comando en la raíz del proyecto:
-   bash
+   ```bash
    pyinstaller --onefile --noconsole --icon=app_icon.ico --add-data "app_icon.ico;." --name "YTDownloaderPro" yt_downloader_pro_v3.3.py
 
 3. El ejecutable estará disponible en la carpeta dist/.
 
-💡 Notas y Limitaciones Conocidas
-   Títulos vacíos en algunas plataformas: Es posible que al analizar ciertos enlaces (por ejemplo, algunos Reels de Facebook o videos de Instagram), la plataforma no exponga la etiqueta del título. En estos casos, la app mostrará "(sin título)" en la interfaz, pero no hay problema: puedes escribir manualmente el nombre que desees en el campo "Nombre" antes de descargar y la aplicación lo respetará perfectamente.
+## 💡 Notas y Limitaciones Conocidas
+   - **Títulos vacíos en algunas plataformas:** Es posible que al analizar ciertos enlaces (por ejemplo, algunos Reels de Facebook o videos de Instagram), la plataforma no exponga la etiqueta del título. En estos casos, la app mostrará "(sin título)" en la interfaz, pero no hay problema: puedes escribir manualmente el nombre que desees en el campo "Nombre" antes de descargar y la aplicación lo respetará perfectamente.
 
-   Sitios con DRM: Plataformas de streaming de pago como Netflix, Disney+ o Hulu utilizan protección DRM. Esta herramienta no puede descargar de esos sitios.
+   - **Sitios con DRM:** Plataformas de streaming de pago como Netflix, Disney+ o Hulu utilizan protección DRM. Esta herramienta no puede descargar de esos sitios.
 
-   Actualizaciones de plataformas: Si un sitio web deja de funcionar de repente, lo más probable es que haya cambiado su código. Actualizar yt-dlp (pip install -U yt-dlp) suele solucionarlo.
+   - **Actualizaciones de plataformas:** Si un sitio web deja de funcionar de repente, lo más probable es que haya cambiado su código. Actualizar yt-dlp (pip install -U yt-dlp) suele solucionarlo.
 
-⚠️ Aviso Legal
+## ⚠️ Aviso Legal
    Esta herramienta está destinada a uso educativo y para descargar contenido propio o de dominio público. El usuario es responsable de cumplir con los Términos de Servicio de las plataformas (como YouTube) y las leyes de derechos de autor de su país. El desarrollador no se hace responsable del mal uso de este software.
