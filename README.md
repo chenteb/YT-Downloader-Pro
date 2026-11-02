@@ -29,7 +29,7 @@ A desktop application developed in Python for Windows that allows you to downloa
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YT-Downloader-Pro.git
+   git clone https://github.com/chenteb/YT-Downloader-Pro.git
    cd YT-Downloader-Pro
 
 2. Install dependencies:
