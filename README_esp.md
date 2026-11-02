@@ -30,7 +30,7 @@ Una aplicación de escritorio desarrollada en Python para Windows que permite de
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/YT-Downloader-Pro.git
+   git clone https://github.com/chenteb/YT-Downloader-Pro.git
    cd YT-Downloader-Pro
 
 2. Instala las dependencias:
